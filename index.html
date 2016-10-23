@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peter Kaufman's Portfolio</title>
+
+		<script src="js/jquery.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css" />
+
+		<script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+		
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="page" id="about-me-page">
+				<div class="about-me">
+					<h3>About me:</h3>
+					<p>I'm a fullstack web developer based in Tokyo with over 11 years of experience in the industry.  I've loved web development since I first started and could never see myself doing anything else.  Some technologies I work in are:
+
+						<ul>
+							<li>Django</li>
+							<li>Laravel</li>
+							<li>Wordpress</li>
+							<li>Git</li>
+							<li>Mysql</li>
+							<li>Apache</li>
+							<li>jQuery</li>
+							<li>React</li>
+							<li>Vue.js</li>
+							<li>CSS/Sass</li>
+							<li>Gulp+Webpack</li>
+							<li><i>+ a whole bunch of others...</i></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="page" id="portfolio-page">
+
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>A list of some works that I am particularly proud of:</h3><br>
+					</div>
+
+					<div class="col-md-4 col-sm-12">
+						<div class="portfolio-item" data-toggle="modal" data-target="#viatran-modal">
+							<img src="img/viatran.png">
+							Viatran
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-12">
+						<div class="portfolio-item" data-toggle="modal" data-target="#keysight-modal">
+							<img src="img/keysight.png">
+							Keysight
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-12">
+						<div class="portfolio-item" data-toggle="modal" data-target="#pps-modal">
+							<img src="img/pps.png">
+							Pacific Press Services
+						</div>
+					</div>
+				</div>
+
+
+				
+			</div>
+			<div class="page" id="contact-page">
+				<div class="contact-info">
+					<h3>Interested in Contacting me?</h3>
+					Phone: 080 - 3020 - 3327<br>
+					Email: <a href="mailto:peterkaufmanenator@gmail.com">peterkaufmanenator@gmail.com</a><br>
+				</div>
+			</div>
+
+		</div>
+		<nav>
+			<a href="#" data-page="about-me-page">About Me</a> | 
+			<a href="#" data-page="portfolio-page">Portfolio</a> | 
+			<a href="#" data-page="contact-page">Contact</a> | 
+			<a href="#" href="PeterKaufman.pdf">Resume</a>
+		</nav>
+
+<div class="modal fade" id="viatran-modal" tabindex="-1" role="dialog" aria-labelledby="viatran-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="viatran-label">Viatran</h4>
+      </div>
+      <div class="modal-body">
+      	<a href="https://www.viatran.com" target="_blank">View Site</a><br>
+		<p>Viatran is a manufacturer of pressure transmitters based in the United States.  We took a legacy, non-responsive website that was had an outdated CMS and build a modern, custom CMS around it and ported in the existing database and content.</p>
+
+		<ul>
+		<li>Provided a CMS that allows edits to edit most content on the site. The CMS also features a media management system.</li>
+		<li>Performed content migration, frontend execution, and backend execution.</li>
+		<li>Powered by Django+React.</li>
+		</ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="keysight-modal" tabindex="-1" role="dialog" aria-labelledby="keysight-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="keysight-label">Keysight</h4>
+      </div>
+      <div class="modal-body">
+      	<a href="https://jobs.keysight.com" target="_blank">View Site</a><br>
+		<p>Keysight Technologies is a large electronic measurement devices company based in the United States.  We took a legacy, non-responsive website that was not backed by any CMS and build a custom CMS around it and ported in the existing database.</p>
+
+		<ul>
+		<li>Provided a CMS that allows edits to edit nearly all content on the site. The CMS also features a media management and publishing system.</li>
+		<li>Performed content migration, frontend execution, and backend execution.</li>
+		<li>Powered by Django+React.</li>
+		</ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pps-modal" tabindex="-1" role="dialog" aria-labelledby="pps-label">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="pps-label">Pacific Press</h4>
+      </div>
+      <div class="modal-body">
+      	<a href="http://search.ppsimages.co.jp" target="_blank">View Site</a><br>
+		<p>Pacific Press Services is a stock photography agency based in Japan.  The website is powered by Perl, but with some sections powered by PHP.  A huge database powers the site containing tens of millions of images and associated keywords.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+	</body>
+</html>
